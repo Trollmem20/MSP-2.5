@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "started-blackjack.gl.joinmc.link",
+          "assigned_srv": "started-blackjack.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "89ce1cee-4d00-4a32-8786-68c5e77743e0",
+          "ip_hostname": "21.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 10898,
+          "port_start": 10897,
+          "region": "global",
+          "static_ip4": "147.185.221.21",
+          "tunnel_ip": "2602:fbaf:0:1::15"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-08-02T02:34:28.748869Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "509a81fd-3fb9-4a87-be99-88fbf68f21d9",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "e51ab294-3e84-4111-b8ad-4ccbc07af350",
+          "agent_name": "trollmeme",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
